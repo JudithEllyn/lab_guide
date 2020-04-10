@@ -1,0 +1,18 @@
+<template name="6aa91605">
+  <view class="_div data-v-73ea8413 total">
+    <view class="_div data-v-73ea8413 map">
+      <image class="_img data-v-73ea8413 img" src="/static/images/map.jpg"></image>
+    </view>
+    <view class="_div data-v-73ea8413 vr">
+      <image class="_img data-v-73ea8413 ins_icon" bindtap="handleProxy" src="{{ins_icon}}" data-eventid="{{'0'}}" data-comkey="{{$k}}"></image>
+      <image class="_img data-v-73ea8413 icon" wx:if="{{vr}}" src="{{stat}}"></image>
+    </view>
+    <view class="_div data-v-73ea8413 ls">
+      <image bindtap="handleProxy" class="_img data-v-73ea8413 ins_icon" src="{{ins_icon}}" data-eventid="{{'1'}}" data-comkey="{{$k}}"></image>
+      <image wx:if="{{ls}}" class="_img data-v-73ea8413 icon" src="{{stat}}"></image>
+    </view>
+    <view class="_div data-v-73ea8413 init">
+      <image class="_img data-v-73ea8413 ins_icon" wx:if="{{init}}" src="{{stat}}"></image>
+    </view>
+  </view>
+</template>

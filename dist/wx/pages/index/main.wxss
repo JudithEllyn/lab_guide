@@ -1,0 +1,31 @@
+@import "../../common/vendor.wxss";
+
+.title {
+  font-family: STXingkai;
+  font-size: 50rpx;
+  text-align: center;
+  text-shadow: 8rpx,8rpx,8rpx,green;
+  line-height: 60rpx;
+}
+.img {
+  height: 600rpx;
+}
+.button {
+  margin-top: 80rpx;
+}
+#dvl_btn {
+  float: left;
+  margin-left: 40rpx;
+  width: 300rpx;
+  height: 100rpx;
+}
+#dvc_btn {
+  padding-left: 40rpx;
+  width: 300rpx;
+  height: 100rpx;
+}
+#cons_btn {
+  margin-top: 40rpx;
+  width: 300rpx;
+  height: 100rpx;
+}

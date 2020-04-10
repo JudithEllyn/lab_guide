@@ -1,0 +1,109 @@
+@import "../../common/vendor.wxss";
+
+.title {
+  color: rgb(3, 92, 3);
+  font-size: 25pt;
+  font-family: 'STXingkai';
+  text-align: center;
+  font-weight: bold;
+  padding: 20rpx;
+}
+.title2 {
+  color: rgb(3, 92, 3);
+  font-size: 25pt;
+  font-family: 'KaiTi';
+  text-align: center;
+  font-weight: bold;
+}
+.message {
+  color: black;
+  font-family: 'STXingkai';
+  font-weight: bold;
+  text-indent: 2em;
+  padding: 20rpx;
+}
+.message2 {
+  color: black;
+  font-family: 'KaiTi';
+  font-weight: 900;
+  text-indent: 2em;
+  padding: 20rpx;
+}
+.message3 {
+  color: black;
+  font-size: 20pt;
+  font-family: 'STXingkai';
+  font-weight: bold;
+  padding: 20rpx;
+}
+.message4 {
+  color: black;
+  font-family: 'KaiTi';
+  font-weight: 900;
+  font-size: 20pt;
+  padding: 20rpx;
+}
+.aa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800rpx;
+  height: 400rpx;
+  margin: 20rpx,20rpx,20rpx,20rpx;
+}
+.a {
+  width: 450rpx;
+  height: 450rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+}
+#jpn_btn {
+  float: left;
+  margin-left: 40rpx;
+  width: 300rpx;
+  height: 100rpx;
+  border-radius: 98rpx;
+  background-color: burlywood;
+  border: 0;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 40rpx;
+}
+#eng_btn {
+  float: left;
+  margin-left: 40rpx;
+  width: 300rpx;
+  height: 100rpx;
+  border-radius: 98rpx;
+  background-color: burlywood;
+  border: 0;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 30rpx;
+}
+#chn_btn {
+  float: left;
+  margin-left: 40rpx;
+  width: 300rpx;
+  height: 100rpx;
+  border-radius: 98rpx;
+  background-color: burlywood;
+  border: 0;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 70rpx;
+}
+#stop_btn {
+  float: right;
+  margin-right: 40rpx;
+  width: 300rpx;
+  height: 100rpx;
+  border-radius: 98rpx;
+  background-color: burlywood;
+  border: 0;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 70rpx;
+}

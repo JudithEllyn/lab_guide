@@ -1,0 +1,67 @@
+@import "../../common/vendor.wxss";
+
+.word {
+  font-family: STXingkai;
+  font-size: 52rpx;
+  text-align: center;
+  padding-bottom: 40rpx;
+}
+.word2 {
+  font-family: KaiTi;
+  font-size: 46rpx;
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom: 40rpx;
+}
+.img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 600rpx;
+}
+.button {
+  margin-top: 80rpx;
+}
+#jpn_btn {
+  float: left;
+  margin-left: 40rpx;
+  width: 300rpx;
+  height: 100rpx;
+  border-radius: 98rpx;
+  background-color: burlywood;
+}
+#eng_btn {
+  padding-left: 40rpx;
+  width: 300rpx;
+  height: 100rpx;
+  border-radius: 98rpx;
+  background-color: burlywood;
+}
+#chn_btn {
+  margin-top: 40rpx;
+  width: 300rpx;
+  height: 100rpx;
+  border-radius: 98rpx;
+  background-color: burlywood;
+}
+.ting {
+  height: 50rpx;
+  width: 50rpx;
+  margin-top: 80rpx;
+  margin-left: -100rpx;
+  font-family: STXingkai;
+  font-size: 60rpx;
+}
+#stop {
+  margin-top: 20rpx;
+  margin-right: 40rpx;
+  float: right;
+  border-radius: 3000rpx;
+  height: 120rpx;
+  width: 120rpx;
+  background-color: brown;
+  border: 0;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 130rpx;
+}

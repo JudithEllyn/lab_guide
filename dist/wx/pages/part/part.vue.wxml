@@ -1,0 +1,19 @@
+<template name="4e322db6">
+  <view class="_div data-v-78666af9"><button class="_button data-v-78666af9 stop" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">停止播放</button>
+    <view class="_div data-v-78666af9 imgs">
+      <view class="_div data-v-78666af9">点击图片即可播放语音导览</view>
+      <view class="_div data-v-78666af9 once">
+        <image class="_img data-v-78666af9 img" bindtap="handleProxy" src="/static/images/VR/1.png" data-eventid="{{'1'}}" data-comkey="{{$k}}"></image>
+        <view bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_p data-v-78666af9">投影设备</view>
+      </view>
+      <view class="_div data-v-78666af9 once">
+        <image class="_img data-v-78666af9 img" src="/static/images/VR/2.png"></image>
+        <view class="_p data-v-78666af9">表演厅</view>
+      </view>
+      <view class="_div data-v-78666af9 once">
+        <image class="_img data-v-78666af9 img" bindtap="handleProxy" src="/static/images/VR/3.png" data-eventid="{{'3'}}" data-comkey="{{$k}}"></image>
+        <view class="_p data-v-78666af9">中控室</view>
+      </view>
+    </view>
+  </view>
+</template>

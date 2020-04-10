@@ -1,0 +1,13 @@
+<template name="c4028f76">
+  <view class="_div data-v-5825f0ce total" style="background-image:url(/static/images/blue3.png)">
+    <view class="_div data-v-5825f0ce img">
+      <image class="_img data-v-5825f0ce aa" src="/static/images/exp.png" background-size="cover"></image>
+    </view>
+    <view class="_div data-v-5825f0ce button">
+      <view class="_div data-v-5825f0ce word">点击可以收听对应语种语音导览</view>
+      <picker mode="selector" bindchange="handleProxy" class="_picker data-v-5825f0ce input" value="{{index_J}}" range="{{types_J}}" data-eventid="{{'1'}}" data-comkey="{{$k}}"><button id="jpn_btn" bindtap="handleProxy" class="_button data-v-5825f0ce word2" data-eventid="{{'0'}}" data-comkey="{{$k}}">日本語ガイド</button></picker>
+      <picker mode="selector" bindchange="handleProxy" class="_picker data-v-5825f0ce input" value="{{index_E}}" range="{{types_E}}" data-eventid="{{'2'}}" data-comkey="{{$k}}"><button id="eng_btn" class="_button data-v-5825f0ce word">English guide</button></picker>
+      <picker mode="selector" bindchange="handleProxy" class="_picker data-v-5825f0ce input" value="{{index_C}}" range="{{types_C}}" data-eventid="{{'3'}}" data-comkey="{{$k}}"><button id="chn_btn" class="_button data-v-5825f0ce word">中文导览</button></picker> <button id="stop" bindtap="handleProxy" class="_button data-v-5825f0ce ting" data-eventid="{{'4'}}" data-comkey="{{$k}}">停</button>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,15 @@
+<template name="3bfa55f6">
+  <view style="background-image: url(/static/images/blue4.png)" class="_div data-v-df4bf4ce">
+    <view class="_div data-v-df4bf4ce title">{{tit1}}</view>
+    <view style="float:right;clear:both;" align="center" class="_div data-v-df4bf4ce">
+      <image class="_img data-v-df4bf4ce a" src="/static/images/exp.png" background-size="cover"></image>
+    </view>
+    <view class="_div data-v-df4bf4ce message">{{msg1}}</view> <button id="chn_btn" bindtap="handleProxy" class="_button data-v-df4bf4ce message3" data-eventid="{{'0'}}" data-comkey="{{$k}}">汉语介绍</button> <button id="stop_btn" bindtap="handleProxy" class="_button data-v-df4bf4ce message3" data-eventid="{{'1'}}" data-comkey="{{$k}}">停</button>
+    <view class="_div data-v-df4bf4ce title">{{tit2}}</view>
+    <view class="_div data-v-df4bf4ce message">{{msg2}}</view> <button id="eng_btn" bindtap="handleProxy" class="_button data-v-df4bf4ce message3" data-eventid="{{'2'}}" data-comkey="{{$k}}">English guide</button> <button id="stop_btn" bindtap="handleProxy" class="_button data-v-df4bf4ce message3" data-eventid="{{'3'}}" data-comkey="{{$k}}">stop</button>
+    <image class="_img data-v-df4bf4ce aa" src="/static/images/com.png" background-size="cover"></image>
+    <view class="_div data-v-df4bf4ce title2">{{tit3}}</view>
+    <view class="_div data-v-df4bf4ce message2">{{msg3}}</view>
+    <view class="_div data-v-df4bf4ce message2">{{msg4}}</view> <button id="jpn_btn" bindtap="handleProxy" class="_button data-v-df4bf4ce message4" data-eventid="{{'4'}}" data-comkey="{{$k}}">日本語ガイド</button> <button id="stop_btn" bindtap="handleProxy" class="_button data-v-df4bf4ce message3" data-eventid="{{'5'}}" data-comkey="{{$k}}">停</button>
+  </view>
+</template>

@@ -1,0 +1,30 @@
+<template name="9eb9f5f2">
+  <view style="background-image: url(/static/images/blue2.png)" class="_div data-v-8e8318d6">
+    <view class="_div data-v-8e8318d6 title">{{tit1}}</view>
+    <view class="_div data-v-8e8318d6 message">{{msg1}}</view>
+    <image class="_img data-v-8e8318d6 a" src="/static/images/bupt.jpg" background-size="cover"></image>
+    <view class="_div data-v-8e8318d6 message">{{msg2}}</view>
+    <view class="_div data-v-8e8318d6 message">{{msg3}}</view>
+    <view class="_div data-v-8e8318d6 message">{{msg4}}</view>
+    <view class="_div data-v-8e8318d6 message">{{msg5}}</view>
+    <view class="_div data-v-8e8318d6"><button id="chn_btn" bindtap="handleProxy" class="_button data-v-8e8318d6 message3" data-eventid="{{'0'}}" data-comkey="{{$k}}">汉语介绍</button> <button id="stop_btn" bindtap="handleProxy" class="_button data-v-8e8318d6 message3" data-eventid="{{'1'}}" data-comkey="{{$k}}">停</button></view>
+    <view class="_div data-v-8e8318d6 title">{{tit2}}</view>
+    <view class="_div data-v-8e8318d6 message">{{msg6}}</view>
+    <view class="_div data-v-8e8318d6 message">{{msg7}}</view>
+    <view style="float:right;clear:both;" align="center" class="_div data-v-8e8318d6">
+      <image class="_img data-v-8e8318d6 aa" src="/static/images/renwen.jpg" background-size="cover"></image>
+    </view>
+    <view class="_div data-v-8e8318d6 message">{{msg8}}</view>
+    <view class="_div data-v-8e8318d6 message">{{msg9}}</view>
+    <view class="_div data-v-8e8318d6 message">{{msg10}}</view> <button id="eng_btn" bindtap="handleProxy" class="_button data-v-8e8318d6 message3" data-eventid="{{'2'}}" data-comkey="{{$k}}">English guide</button> <button id="stop_btn" bindtap="handleProxy" class="_button data-v-8e8318d6 message3" data-eventid="{{'3'}}" data-comkey="{{$k}}">stop</button>
+    <view class="_div data-v-8e8318d6 title2">{{tit3}}</view>
+    <view class="_div data-v-8e8318d6 message2">{{msg11}}</view>
+    <view class="_div data-v-8e8318d6 message2">{{msg12}}</view>
+    <view style="float:left;clear:both;" align="center" class="_div data-v-8e8318d6">
+      <image class="_img data-v-8e8318d6 aa" src="/static/images/fazhan.jpg" background-size="cover"></image>
+    </view>
+    <view class="_div data-v-8e8318d6 message2">{{msg13}}</view>
+    <view class="_div data-v-8e8318d6 message2">{{msg14}}</view>
+    <view class="_div data-v-8e8318d6 message2">{{msg15}}</view> <button id="jpn_btn" bindtap="handleProxy" class="_button data-v-8e8318d6 message4" data-eventid="{{'4'}}" data-comkey="{{$k}}">日本語ガイド</button> <button id="stop_btn" bindtap="handleProxy" class="_button data-v-8e8318d6 message3" data-eventid="{{'5'}}" data-comkey="{{$k}}">停</button>
+  </view>
+</template>

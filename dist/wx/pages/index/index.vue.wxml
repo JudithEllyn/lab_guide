@@ -1,0 +1,12 @@
+<template name="04da05f1">
+  <view class="_div data-v-046a2782 page">
+    <view class="_div data-v-046a2782 title">
+      <view class="_p data-v-046a2782">北京邮电大学</view>
+      <view class="_p data-v-046a2782">国家级语言教学实验示范中心</view>
+      <view class="_div data-v-046a2782 img">
+        <image src="{{logo}}" class="_img data-v-046a2782"></image>
+      </view>
+      <view class="_div data-v-046a2782 button"><button id="dvl_btn" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-046a2782">发展历程</button> <button id="dvc_btn" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_button data-v-046a2782">实验室概况</button> <button id="cons_btn" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_button data-v-046a2782">建设概况</button></view>
+    </view>
+  </view>
+</template>

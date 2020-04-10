@@ -1,0 +1,23 @@
+@import "../../common/vendor.wxss";
+
+.imgs {
+  height: 1160rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 340rpx;
+  height: 240rpx;
+}
+.once {
+  font-size: 30rpx;
+  padding-bottom: 80rpx;
+  text-align: center;
+}
+.stop {
+  float: right;
+  width: 100rpx;
+  height: 60rpx;
+}

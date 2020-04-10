@@ -1,0 +1,1 @@
+<import src="/pages/scene_sp/scene_sp.vue.wxml" /><template is="c4028f76" data="{{ ...$root['0'], $root }}"/>

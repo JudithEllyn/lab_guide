@@ -1,0 +1,19 @@
+<template name="152bd0dd">
+  <view class="_div data-v-1e6d3eeb">
+    <view class="_div data-v-1e6d3eeb char">
+      <view class="_p data-v-1e6d3eeb">言語実験教学モデルセンター——バーチャルシミュレーションラボラトリ紹介</view>
+      <view class="_p data-v-1e6d3eeb">言語実験教学モデルセンターのバーチャルシミュレーションラボラトリは、新しい技能型</view>
+      <view class="_p data-v-1e6d3eeb">実験教学任務の試しや完成を主目的として、バーチャル放送形式の革新型教学モードを構</view>
+      <view class="_p data-v-1e6d3eeb">築すること、または学校のバーチャル放送プラットフォームとバーチャル３Ｄシーン、イ</view>
+      <view class="_p data-v-1e6d3eeb">メージレンダリングシステムと共に使用することによって、学生に革新型のバーチャル放</view>
+      <view class="_p data-v-1e6d3eeb">送学習実験プラットフォームを提供する。言語バーチャルシミュレーション実験プラット</view>
+      <view class="_p data-v-1e6d3eeb">フォームの構築により、教師と学生の間にインターアクションができる映像ネットワーク</view>
+      <view class="_p data-v-1e6d3eeb">教育モードを確立させる。言語実験のとき、学生の科学技術、音楽、美術及びデザインな</view>
+      <view class="_p data-v-1e6d3eeb">どの面で潜在的な創造力が開発できるだけでなく、マルチメディアコンピュータ及び「撮</view>
+      <view class="_p data-v-1e6d3eeb">影、録音、編集、放送」などの総合機材技術を身につける。そのため、学生たちは一人で</view>
+      <view class="_p data-v-1e6d3eeb">ビデオ授業、教育素材、テレビ番組など作れるし、学生の学習の積極性と能動性を高める</view>
+      <view class="_p data-v-1e6d3eeb">ことができる。教師たちは授業をするとき、実用的な教材を自由に作れるし、違う学生に</view>
+      <view class="_p data-v-1e6d3eeb">よって、課題に対する理解を深めることもできる。</view>
+    </view> <button class="_button data-v-1e6d3eeb audio1" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">播放音频</button> <button class="_button data-v-1e6d3eeb audio1" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">停止</button>
+  </view>
+</template>
